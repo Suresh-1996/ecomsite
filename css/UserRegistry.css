@@ -1,0 +1,145 @@
+body
+{
+	margin:auto;
+	background-color: gray;
+}
+
+.background
+{
+	position: relative; 
+	width: 1535px;
+	height: 400px;
+	margin-left: 1px;
+}
+
+.openRegisterbtn
+{
+	position: absolute;
+	width: 250px;
+	margin-left: 230px;
+	margin-top:450px; 
+	
+	
+}
+#closebtn
+{
+	margin-top: -55px;
+	margin-left: 350px;
+}
+
+.bropdwnbutton 
+{
+  color:white;
+  background-color: rgb(4, 85, 191);
+  opacity: 80%;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+ }
+ .bropdwnbutton:hover 
+ {
+   opacity: 100%;
+
+ }
+#logo
+{
+	position: absolute;
+	margin-top: -500px;
+	margin-left: 40px;
+}
+#Allready
+{
+	margin-left: 60px;
+	color: red;
+	width: 250px;
+
+}
+
+
+#login
+{   
+	border: none;
+	margin-left: 100px;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: rgb(9, 133, 124);
+	width: 150px;
+	height: 50px;
+	font-size: 17px;
+	border-style: none;
+
+}
+#login:hover
+{   border: none;
+	width: 140px;
+	height: 45px;
+	transition: all 0.5s ease 0s;
+	border-radius: 30px;
+	background-color: rgb(18, 219, 68);
+	
+
+}
+
+
+.background2
+{   
+	position: absolute;
+	width: 900px;
+	height: 500px;
+	margin-left: 500px;
+	margin-top: -420px;
+}
+
+.regf
+{
+	display:none;
+}
+
+.regform
+{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-top: -400px;
+	margin-left: 450px;
+
+}
+#h1
+{
+	color:red;
+}
+.ftext
+{
+	color:white;
+	width: 100px;
+
+}
+.err{ color: red ;}
+
+#suBtn
+{
+	margin-left: 100px;
+	color: white;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: rgb(9, 133, 124);
+	border: none;
+	width: 110px;
+	height: 40px;
+	font-size: 15px;
+	opacity: 80%;
+
+}
+#suBtn:hover
+{
+opacity: 100%;
+}
+#table
+{
+	width: 500px;
+	height: 250px;
+}
+
+

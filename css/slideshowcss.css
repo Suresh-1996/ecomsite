@@ -1,0 +1,33 @@
+.sidepanel\
+{
+  
+  width: 200px;
+  height: 200px;
+
+}
+
+.section
+{
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+
+}
+
+ #d01:hover 
+{
+	width: 300px;
+	height: auto;
+	border: 3px solid red;
+	border-radius: 10px;
+
+
+}
+
+.B1:hover
+{
+  background-color: red;
+}
+
+
+

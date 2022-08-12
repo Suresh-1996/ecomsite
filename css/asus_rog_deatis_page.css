@@ -1,0 +1,137 @@
+
+
+.sidemenu{
+
+	margin-top: -110px;
+}
+#sidediv{
+	margin-top: 910px;
+}
+
+#foter1{
+
+	margin-top: 1500px;
+}
+#foter2{
+
+	margin-top: 1500px;
+}
+#foter3{
+
+	margin-top: 1500px;
+}
+
+#footer{
+	margin-top:1800px; 
+
+}
+
+#page_name{position: absolute; color: white;margin-left: 500px;margin-top: -830px;}
+.product_image:hover{
+  transform: scale(1.5);
+}
+.product_1{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+
+	
+	margin-left: 600px;
+}
+
+.product_details{
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	margin-left: 480px;
+	margin-top: 500px;
+	text-align:left;
+}
+
+
+.product_2{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	margin-left: 600px;
+}
+
+.product_3{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	margin-left: 1150px;
+}
+.product_3:hover{ background-color: gray }
+
+.product_4{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	
+	margin-left: 350px;
+	margin-top: 400px;
+}
+
+.product_4:hover{ background-color: gray }
+.details{color: white;text-align: center;margin-top:-50px;}
+.product_5{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	margin-left: 750px;
+	margin-top: 400px;
+}
+.product_5:hover{ background-color: gray }
+.product_6{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	margin-left: 1150px;
+	margin-top: 400px;
+}
+.product_6:hover{ background-color: gray }
+
+.product_7{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	
+	margin-left: 350px;
+	margin-top: 800px;
+}
+
+.product_7:hover{ background-color: gray }
+.details{color: white;text-align: center;margin-top:-50px;}
+.product_8{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	margin-left: 750px;
+	margin-top: 800px;
+}
+.product_8:hover{ background-color: gray }
+.product_9{
+
+    position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 2px solid gray;
+	margin-left: 1150px;
+	margin-top: 800px;
+}
+.product_9:hover{ background-color: gray }

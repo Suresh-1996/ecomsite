@@ -1,0 +1,617 @@
+body 
+{
+	background-color: black;
+  margin: 0;
+
+
+}
+#homelogo
+{
+	position:relative;
+	
+	width: 1500px;
+	height:900px;
+}
+#hnavBar
+{
+    position: absolute;  
+}
+
+ul
+{
+	list-style-type: none;
+	margin-left:300px;
+	overflow: hidden;
+
+}
+li
+{
+	float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 10px 30px;
+  margin-right: 60px;
+  text-decoration: none;
+  
+
+  
+}
+
+li a:hover {
+  background-color: gray;
+  
+
+  
+}
+
+#sitelogo
+{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	
+}
+.dropbtn {
+  
+    color: yellow;
+   padding: 10px 40px;
+   
+   border: none;
+   background-color: black;
+
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 108px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: yellow;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid black;
+}
+
+.dropdown-content a:hover {background-color: gray;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gray;}
+
+#phone
+{  
+    position: absolute;
+    
+    margin-left: 700px;
+	width: 300px;
+	height: 40px;
+	
+	
+}
+#phone img
+{
+	
+	margin-left: 30px;
+}
+
+#phone h2
+{  
+	color: white;
+	margin-top: -30px;
+	margin-left: 60px;
+}
+#phone h2:hover
+{
+	color: red;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  }
+
+.mySlides {
+  display: none;
+  margin-left: 900px;
+  
+          }
+img {
+  vertical-align: middle;
+    }
+
+.slidecontainer 
+{
+  
+  
+  position: relative;
+
+  margin: auto;
+  margin-top: -700px;
+  
+  
+
+
+}
+
+.dot {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin-top: -150px;
+
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active {
+  background-color: yellow;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.screen
+{
+  position:absolute;
+  margin-top: -800px;
+  width: 1250px;
+  height: 600px;
+  margin-left: 260px;
+  background-color: white;
+  opacity: 10%;
+}
+
+h1
+{
+color: red;
+margin-top: 50px;
+margin-left: 30px;
+}
+
+.dis
+{
+  border-color: red;
+  width: 600px;
+  height: 330px;
+  
+  margin-top: -380px;
+  margin-left: -600px
+
+
+}
+
+.sidemenu
+{
+   position: absolute;
+   margin-top: -635px;
+   width: 200px;
+   height: 1000px;
+  
+   
+}
+
+.section
+{
+   width: 250px;
+   height: 60px;
+   margin:5px;
+   background-color:rgba(210, 218, 212, 0.68);
+   
+
+ }
+
+ .s1:hover
+ {
+    
+    
+    height: 65px;
+    margin-left:2px ;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+ }
+
+ .homebg2
+ {
+  position: fixed;
+  margin-top:500px;
+   width: 1250px;
+  height: 500px;
+  margin-left: 260px;
+  opacity: 20%;
+  
+ }
+
+#offerontainer
+{
+  position: absolute;
+  width: 1250px;
+  height: 100px;
+  margin-left: 260px;
+  border-top: 5px solid;
+  border-color: white;
+  background-color:rgba(87, 87, 87, 0.52);
+
+}
+
+#spoff
+{
+  font-size: 40px;
+  color: yellow;
+  text-decoration:underline;
+  text-decoration-color: yellow;
+    position: relative;
+  animation-name:offer;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+
+
+}
+
+
+#pesent
+{
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  margin-top: -80px;
+  margin-left: 500px;
+  background-color:yellow;
+  width: 50px;
+  height: 50px;
+  text-decoration:underline;
+  text-decoration-color:red;
+   
+   position: relative;
+  animation-name: offer;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+#nwa
+{ 
+
+   margin-top: -100px;
+  margin-left: 800px;
+  animation-name: arrivals;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes arrivals {
+  0%   { left:0px;}
+  
+  50%  {color: black;  }
+ 
+  100% {font-size: 50px; left:0px; }
+}
+
+@keyframes offer {
+  0%   { left:0px;}
+  
+  50%  {color: white; text-decoration-color: black ;  }
+ 
+  100% { left:0px; }
+}
+
+
+.mySlide
+{
+  
+  margin-top: 47px;
+
+}
+.w3-content
+{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 200px;
+  width: 800px;
+  height: 550px;
+  border: 20px solid;
+  border-color: rgb(163, 5, 5);
+  background-color: rgb(163, 5, 5);
+ 
+
+
+
+}
+
+.mySlide:hover
+{
+  border: 10px solid;
+  border-color:rgb(194, 145, 10);;
+
+  
+}
+.w3-center
+{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 790px;
+
+}
+.w3-section .w3-button:hover
+{
+  background-color: gray;
+  color: red;
+  border: 0.5px solid;
+  border-color: black;
+  border-radius: 0.5px;
+
+
+}
+
+#bt
+{
+  
+  margin-left: 60px;
+}
+
+ 
+ .w3-red
+ {
+  color: red;
+ } 
+ 
+ .w3-section .w3-button 
+ {
+  padding-right: 50px;
+ background-color: gray;
+
+ }
+
+
+#oftext
+{
+
+  text-align: center;
+  margin-top: -80px;
+  background-color:gray;
+  margin-right: 50px;
+}
+
+#foter1
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+   background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 20px;
+  margin-top: 900PX;
+    border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#foter2
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 535px;
+  margin-top: 900PX;
+  border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#foter3
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 1050px;
+  margin-top: 900PX;
+    border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#footer
+{
+  position: absolute;
+  width:1500px;
+  height: 60px;
+  background-color:gray;
+  margin-top: 1200px;
+  margin-left: 12px;
+  opacity: 40%;
+}
+
+#footerfindus
+{
+  
+  margin-top: -50px;
+  margin-left: 1000px;
+}
+
+
+
+.ftlogo
+{
+ margin-left: 160px;
+ margin-top: 20px;
+}
+
+.ftlogo h1
+{
+ font-size: 20px;
+ margin-top: 2px;
+ margin-left: -45px;
+}
+.ftlogo p
+{
+  color: white;
+  margin-left: -100px;
+  margin-right: 40px;
+
+}
+
+#car
+{
+  margin-top: -50px;
+}
+#foter1:hover
+{
+  background-color: gray;
+}
+
+#foter2:hover
+{
+  background-color: gray;
+}
+#foter3:hover
+{
+  background-color: gray;
+}
+
+#sidediv
+{
+  position: absolute;
+  width:255px;
+  height: 480px;
+  background-color: red;
+  margin-top: 410px;
+  
+}
+
+
+
+
+#sidediv img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 20s ease-in-out;
+}
+
+
+
+#sidediv img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction:alternate;
+
+}
+
+  @keyframes cfFadeInOut 
+  {
+   0% {opacity:1;}
+  
+
+   45% {opacity:1;}
+
+
+   55% {opacity:0;}
+
+
+   100% {opacity:0;} 
+   }   
+
+
+   
+    #rightsidediv 
+    {
+  position: absolute;
+  width:255px;
+  height: 780px;
+  background-color: red;
+  margin-top: 110px;
+  margin-left: 1250px;
+  
+}
+
+
+
+
+#rightsidediv img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 8s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  -o-transition: opacity 4s ease-in-out;
+  transition: opacity 10s ease-in-out;
+}
+
+
+
+#rightsidediv img.top {
+animation-name: fFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+animation-direction:alternate;
+
+}
+
+  @keyframes fFadeInOut 
+  {
+   0% {opacity:1;}
+  
+
+   60% {opacity:1;}
+
+
+   80% {opacity:0;}
+
+
+   100% {opacity:0;} 
+   }       
+
+
+
+
+
+
+ 

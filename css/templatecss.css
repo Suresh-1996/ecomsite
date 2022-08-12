@@ -1,0 +1,633 @@
+body 
+{
+	background-color: black;
+  margin: 0;
+
+
+}
+
+#homelogo
+{
+	
+	position: fixed;
+
+
+
+}
+#hnavBar
+{
+   position: absolute;
+}
+
+ul
+{
+	list-style-type: none;
+	margin-left:300px;
+	overflow: hidden;
+
+}
+li
+{
+	float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 10px 30px;
+  margin-right: 60px;
+  text-decoration: none;
+  
+
+  
+}
+
+li a:hover {
+  background-color: gray;
+  
+
+  
+}
+
+#sitelogo
+{
+  position:absolute;
+	width: 200px;
+	height: 100px;
+	
+}
+.dropbtn {
+  
+    color: yellow;
+   padding: 10px 40px;
+   
+   border: none;
+   background-color: black;
+
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 108px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: yellow;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid black;
+}
+
+.dropdown-content a:hover {background-color: gray;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gray;}
+
+#phone
+{  
+   
+    
+    margin-left: 700px;
+	width: 300px;
+	height: 40px;
+	
+	
+}
+
+
+
+
+
+.sidemenu
+{
+   position: absolute;
+   margin-top: 100px;
+   width: 200px;
+   height: 1000px;
+  
+   
+}
+
+.section
+{
+   width: 250px;
+   height: 60px;
+   margin:5px;
+   background-color:rgba(210, 218, 212, 0.68);
+   
+
+ }
+
+ .s1:hover
+ {
+    
+    
+    
+    margin-left:2px ;
+    transition-duration: 0.5s;
+    border: 1px solid white;
+ }
+
+
+ .homebg2
+ {
+  position: fixed;
+  margin-top:500px;
+   width: 1250px;
+  height: 500px;
+  margin-left: 260px;
+  opacity: 20%;
+  
+ }
+
+
+
+
+#foter1
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+   background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 20px;
+  margin-top: 1650PX;
+    border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#foter2
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 535px;
+  margin-top: 1650PX;
+  border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#foter3
+{
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  background-color:rgba(1, 26, 40, 0.91);
+  margin-left: 1050px;
+  margin-top: 1650PX;
+    border: 3px solid;
+  border-color:rgba(146, 215, 252, 0.66);
+}
+
+#footer
+{
+  position: absolute;
+  width:1500px;
+  height: 60px;
+  background-color:gray;
+  margin-top: 1950px;
+  margin-left: 12px;
+  opacity: 40%;
+}
+
+#footerfindus
+{
+  
+  margin-top: -50px;
+  margin-left: 1000px;
+}
+
+
+
+.ftlogo
+{
+ margin-left: 160px;
+ margin-top: 20px;
+}
+
+.ftlogo h1
+{
+ font-size: 20px;
+ margin-top: 2px;
+ margin-left: -45px;
+}
+.ftlogo p
+{
+  color: white;
+  margin-left: -100px;
+  margin-right: 40px;
+
+}
+
+#car
+{
+  margin-top: -50px;
+}
+#foter1:hover
+{
+  background-color: gray;
+}
+
+#foter2:hover
+{
+  background-color: gray;
+}
+#foter3:hover
+{
+  background-color: gray;
+}
+
+#sidediv
+{
+  position: absolute;
+  width:255px;
+  height: 480px;
+  background-color: red;
+  margin-top: 1150px;
+  
+  
+}
+
+
+
+
+#sidediv img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 20s ease-in-out;
+}
+
+
+
+#sidediv img.top {
+animation-name: cfFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-direction:alternate;
+
+}
+
+  @keyframes cfFadeInOut 
+  {
+   0% {opacity:1;}
+  
+
+   45% {opacity:1;}
+
+
+   55% {opacity:0;}
+
+
+   100% {opacity:0;} 
+   }   
+
+ .category
+ {
+   position: absolute;
+   width: 250px;
+   height: 1400px;
+  
+   margin-top: 100px;
+   margin-left: 290px;
+   border-right: 2px solid white;
+ }
+ #table
+ {
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: serif;
+ }
+ .tabletext
+ {
+  color: white;
+
+ }
+ .pagehead
+ {
+  position: absolute;
+  margin-left: 600px;
+  width: 800px;
+  height: 80px;
+  background-color: gray;
+  margin-top: 50px;
+ }
+ #headtext
+ {
+   text-align: center;
+   font-size: 30px;
+   color: red;
+ }
+
+ .clink
+ {
+  text-decoration: none;
+  color: white;
+ }
+ .clink:hover
+ {
+   color: red;
+ }
+
+
+ #iframediv
+ {
+     position: absolute;
+     width: 500px;
+     height: 700px;
+   
+     margin-left: 550px;
+     margin-top: 150px;
+
+ }
+   
+#maindiv
+{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+ 
+}
+
+ .block1
+ {
+  position: absolute;
+   width: 280px;
+   height: 600px;
+   margin-left: 555px;
+   margin-top: 150px;
+   border: 1px solid yellow;
+   
+}
+
+.b1image
+{
+  position: absolute;
+  margin-left: 585px;
+  margin-top: 180px;
+  background-color: red;
+
+}
+
+ .b1block
+ {
+  position: absolute;
+   width: 280px;
+   height: 80px;
+   border: 1px solid gray;
+   background-color: gray;
+   margin-left: 555px;
+   margin-top: 500px;
+
+  
+ }
+
+ .innerblocktext
+ {
+   text-align: center;
+   font-size: 22px;
+   color: red;
+   font-family:cursive;
+ }
+.b1stoke
+{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  margin-left: 635px;
+  border-radius: 10px;
+  margin-top: 730px;
+}
+.stoketext
+{
+  color: white;
+  margin-top: -0px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.b1details
+{
+  position: absolute;
+   width: 280px;
+   height: 100px;
+  background-color: red;
+  margin-left: 555px;
+  margin-top: 600px;
+}
+.blcdetailsText
+{
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+
+  .block1:hover
+  {
+    background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+  }
+ 
+
+.block2
+ {
+   position: absolute;
+  width: 280px;
+   height: 600px;
+   margin-left: 890px;
+    margin-top: 150px;
+   border: 1px solid yellow;
+   
+  
+ }
+ #b2bock
+ {
+   margin-left: 890px;
+ }
+ #b2stoke
+ {
+   margin-left: 980px;
+ }
+ .block2:hover
+  {
+   background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+
+  }
+  #b2details
+  {
+    margin-left: 890px;
+  }
+
+ .block3
+ {
+   position: absolute;
+   width: 280px;
+   height: 600px;
+   margin-left: 1225px;
+    margin-top: 150px;
+  border: 1px solid yellow;
+  
+ 
+ }
+ #b3bock
+ {
+   margin-left: 1225px;
+ }
+ #b3stoke
+ {
+   margin-left: 1330px; 
+ }
+ .block3:hover
+  {
+    background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+
+  }
+  #b3details
+  {
+    margin-left: 1225px;
+  }
+
+  .block4
+ {
+   position: absolute;
+  width: 280px;
+   height: 600px;
+  margin-left: 555px;
+   margin-top: 850px;
+  border: 1px solid yellow;
+  
+  }
+  #b4block
+  {
+     margin-left: 555px;
+     margin-top: 1200px;
+  }
+
+  #b4stoke
+  {
+      margin-left: 635px;
+      margin-top: 1435px;
+  }
+ .block4:hover
+  {
+    background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+
+  }
+  #b4details
+  {
+     margin-left: 555px;
+     margin-top: 1300px;
+  }
+
+.block5
+ {
+   position: absolute;
+  width: 280px;
+   height: 600px;
+    margin-left: 890px;
+   margin-top: 850px;
+   border: 1px solid yellow;
+  
+  }
+
+  #b5block
+  {
+    margin-left: 890px;
+     margin-top: 1200px;
+  }
+  #b5stoke
+  {
+    margin-left: 980px;
+    margin-top: 1435px;
+  }
+  .block5:hover
+  {
+     background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+
+  }
+  #b5details
+  {
+    margin-left: 890px;
+     margin-top: 1300px;
+  }
+
+ .block6
+ {
+   position: absolute;
+   width: 280px;
+   height: 600px;
+   margin-left: 1225px;
+   margin-top: 850px;
+  border: 1px solid yellow;
+  
+  }
+  .block6:hover
+  {
+    background-color:rgb(8, 10, 133);
+    opacity: 55%;
+    transition: 1s;
+    transition-duration: 1s;
+    border: none;
+
+  }
+  #b6block
+  {
+     margin-left: 1225px;
+      margin-top: 1200px;
+  }
+  #b6stoke
+  {
+    margin-left: 1330px; 
+    margin-top: 1435px;
+
+  }
+  #b6details
+  {
+    margin-left: 1225px;
+    margin-top: 1300px;
+  }
+
+     
+
+
+
+
+
+
+ 
